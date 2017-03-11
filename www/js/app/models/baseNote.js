@@ -1,3 +1,11 @@
+/*  
+	Modification Log:
+    Modified by: Ricky L. Del Vecchio
+    Modification Date: 3/10/17
+    Modification: Added functionality for follow-up action. 
+	Notes: Functionality still incomplete, status message needs defined.
+*/
+
 /**
  *
  * Base Note Model
@@ -57,6 +65,7 @@ define( [ "yasmf" ], function( _y ) {
     self.registerNotification( "mediaContentsChanged" );
     self.registerNotification( "unitValueChanged" );
     self.registerNotification( "unitLabelsChanged" );
+	self.registerNotification( "unitStatusChanged" );
     /**
      * The note's unique identifier. getUID is the getter, and
      * setUID is the setter. Two properties can be used to

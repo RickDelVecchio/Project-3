@@ -1,3 +1,10 @@
+/*  
+	Modification Log:
+    Modified by: Ricky L. Del Vecchio
+    Modification Date: 3/10/17
+    Modification: Added functionality for follow-up action
+*/
+
 /**
  *
  * Note List View
